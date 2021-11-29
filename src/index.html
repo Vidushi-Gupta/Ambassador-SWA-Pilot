@@ -1,99 +1,647 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Vidushi Gupta's personal portfolio" />
+  <meta name="author" content="Vidushi Gupta" />
+  <link rel="icon" type="image/png" href="sources/logo.png">
+  <title>Vidushi Gupta | Portfolio</title>
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+
+  <!-- CSS (includes Bootstrap), you can also add bootstrap by cdn like JS is added at bottom-->
+  <link href="css/styles.css" rel="stylesheet" />
 </head>
-<body>
-    <main>
-        <article class="box">
-            <h1>Your Name</h1>
-            <div><a href="mailto:your.email@example.com">your-email@example.com</a></div>
-            
-            <section class="box">
-                <h2>
-                    <i class="fa fa-bullhorn" aria-hidden="true"></i>
-                    Social media
-                </h2>
-                <ul>
-                    <li><a href="https://github.com/<handle>">@github_handle</a></li>
-                    <li><a href="https://linkedin.com/in/<handle>">@linkedin_handle</a></li>
-                    <li><a href="https://twitter.com/<handle>">@twitter_handle</a></li>
-                </ul>    
-            </section>
-            
-            <section class="box">
-                <div class="education">
-                    <h2>
-                        <i class="fa fa-certificate" aria-hidden="true"></i>
-                        School name
-                    </h2>
-                    <h3>Major</h3>
-                    <ul>
-                        <li>GPA: 4.0</li>
-                        <li>Years</li>
-                    </ul>
+
+<body id="page-top">
+  <!-- Navbar (appears at top of your webpage)-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <input onclick="make_me_dark()" type="checkbox" class="toggle" checked>
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Vidushi Gupta</span>
+      <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
+          src="sources/img.png" alt="" /></span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+        class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certifications">Certifications</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Content-->
+
+  <div class="container-fluid p-0">
+    <!-- About-->
+    <section class="resume-section" id="about">
+      <div class="resume-section-content">
+        <h1 class="mb-0 text-center">
+          <span class="text-primary">Vidushi</span>
+          Gupta
+        </h1>
+        <div class="subheading mb-5 text-center">
+          A pre-final year undergraduate with a flair for Tech, Design, PR & Sponsorships.
+        </div>
+        <img class="top-img1 " src="sources/memoji.png" alt="">
+        <img class="top-img " src="sources/banner 2.png" alt="">
+        <p class="lead mb-5">Hello there! I'm Vidushi, an undergraduate, pursuing my <strong>B.Tech in Computer Science
+            with Big Data Analytics</strong> from SRM Institute of Science and Technology, KTR, Chennai.
+          An avid product enthusiast experienced in digital product designing, I completely believe in the saying,
+          <strong>"No matter what people tell you, words and ideas can truly change the world."</strong>
+          As a community leader, you'll find me getting on calls with corporates, doing PR activities alongside
+          curating content.
+        </p>
+        <div class="social-icons">
+          <div class="social-hide">
+            <a target="_blank" class="social-icon" href="https://www.linkedin.com/in/vidushi-gupta07/">
+              <i class="fab fa-linkedin-in"></i></a>
+            <a target="_blank" class="social-icon" href="https://github.com/Vidushi-Gupta"><i
+                class="fab fa-github"></i></a>
+            <a target="_blank" class="social-icon" href="https://medium.com/@vidushig2020"><i
+                class="fab fa-medium-m"></i></a>
+            <a target="_blank" class="social-icon" href="https://twitter.com/Vidushi_Gupta7"><i
+                class="fab fa-twitter"></i></a>
+
+            <a target="_blank" class="social-icon" href="mailto:vidushig2020@gmail.com"><i
+                class="fas fa-envelope"></i></a>
+            <a target="_blank" class="social-icon" href="https://instagram.com/vidzene_?utm_medium=copy_link"><i
+                class="fab fa-instagram"></i></a>
+            <br><br><a target="_blank" class="social-icon-resume"
+              href="https://drive.google.com/file/d/10f3gAUvrdFbR02D3r9HRHDkYO0IUVN-z/view?usp=sharing">Resume</i></a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="m-0" />
+
+    <!-- Education-->
+    <section class="resume-section" id="education">
+      <div class="resume-section-content">
+        <h2 class="mb-4">Education</h2>
+        <div class="row">
+          <!-- <div class="col-md-6"> -->
+
+
+          <ul class="fa-ul mb-0">
+            <li>
+              <span class="fa-li"><i class="fas fa-university"></i></fas></span>
+              <div class="subheading mb-3">B.Tech Computer Science with specialization in Big Data Analytics</div>
+              2019-2023 SRM Institute of Science and Technology, KTR, Chennai<br>
+              <p1> University Scholarship holder (2019-20, 2020-21)</p1>
+            </li>
+            <li>
+              <br>
+              <span class="fa-li"><i class="fas fa-university"></i></fas></span>
+              <div class="subheading mb-3">Exchange Student</div>
+              2021 (Fall-virtual) Asia University, Taiwan<br>
+              <p1> Data Science</p1>
+            </li>
+            <li>
+              <br>
+              <span class="fa-li"><i class="fas fa-university"></i></fas></span>
+              <div class="subheading mb-3">Senior Secondary</div>
+              2019 Apeejay School<br>
+              <p1> Scored A1 in all subjects</p1>
+            </li>
+            <li>
+              <br>
+              <span class="fa-li"><i class="fas fa-university"></i></fas></span>
+              <div class="subheading mb-3">Secondary</div>
+              2017 Ryan International School<br>
+              <p1> Awarded Merit Certificate by Central Board of Secondary Education</p1>
+            </li>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <!-- <img class="awards-img " src="sources/AZ900.png">-->
+      </div>
+  </div>
+  </div>
+  </section>
+  </div>
+  <hr class="m-0" />
+  <!-- Experience-->
+  <section class="resume-section" id="experience">
+    <div class="resume-section-content">
+      <h2 class="mb-4">Experience</h2>
+      <div class="subheading mb-3"><u>Work Experience</u></div><br>
+      <div class="d-flex flex-column flex-md-row justify-content-between">
+        <div class="flex-grow-1">
+          <h3 class="mb-0">InsurTech Startup</h3>
+          <div class="subheading mb-3">Machine learning Intern</div>
+          <p>Responsible for research, building, training and deploying machine learning models according to the
+            services provided by the organziation. </p>
+        </div>
+        <div class="flex-shrink-0"><span class="text-primary">2021-06</span></div>
+      </div>
+      <div class="d-flex flex-column flex-md-row justify-content-between">
+        <div class="flex-grow-1">
+          <h3 class="mb-0">GlowSutra by Shweta</h3>
+          <div class="subheading mb-3">Social Media Manager Intern</div>
+          <p>Responsible for the social media presence for the startup by devising strategies. </p>
+        </div>
+        <div class="flex-shrink-0"><span class="text-primary">2020-10</span></div>
+      </div>
+      <div class="d-flex flex-column flex-md-row justify-content-between">
+        <div class="flex-grow-1">
+          <h3 class="mb-0">HealthKart</h3>
+          <div class="subheading mb-3">Market Research Analyst Intern</div>
+          <p>Responsible for analysing the organization's market reach and devising strategies for expansion. </p>
+        </div>
+        <div class="flex-shrink-0"><span class="text-primary">2020-05</span></div>
+      </div><br>
+
+      <div class="subheading mb-3"><u>Other Experience</u></div>
+
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="flex-grow-1"><br>
+          <h3 class="mb-0">AnitaB.org x Microsoft Student Advocacy</h3>
+          <div class="subheading mb-3">Grace Hopper Celebration ’21 Scholar (vGHC 2021)</div>
+          <p> GHC is the <strong>world’s largest gathering of women technologists</strong>, where women from around
+            the world learn,
+            network, and celebrate their achievements. I was <strong>sponsored by the Microsoft
+              Student
+              Advocacy team </strong> to attend the virtual Grace Hopper Celebration 2021.</p>
+        </div>
+        <div class="flex-shrink-0"><span class="text-primary">2021-09</span></div>
+      </div>
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="flex-grow-1">
+          <h3 class="mb-0">Global Citizen Year Academy, California</h3>
+          <div class="subheading mb-3">Academy Scholar</div>
+          <p>Selected and sponsored to attend the Global Citizen Year Academy for Fall 2021 under the guidance of
+            World leaders with the objective to - find our purpose and our power to make an impact.</p>
+        </div>
+        <div class="flex-shrink-0"><span class="text-primary">2021-09</span></div>
+      </div>
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="flex-grow-1">
+          <h3 class="mb-0">Postman</h3>
+          <div class="subheading mb-3">Student Expert</div>
+          <p>Selected as a Postman student expert to grow API literacy and establish a community around APIs.</p>
+        </div>
+        <div class="flex-shrink-0"><span class="text-primary">2021-07</span></div>
+      </div>
+      <div class="d-flex flex-column flex-md-row justify-content-between">
+        <div class="flex-grow-1">
+          <h3 class="mb-0">Harvard Project for Asian and International Relations (HPAIR)</h3>
+          <div class="subheading mb-3">Delegate ‘21</div>
+          <p>Selected as a delegate to attend the prestigious Harvard Project for Asian and International Relations
+            with World leaders and changemakers.</p>
+        </div>
+        <div class="flex-shrink-0"><span class="text-primary">2021-07</span></div>
+      </div>
+      <br><br>
+      <div class="d-flex flex-column flex-md-row justify-content-between">
+        <div class="flex-grow-1">
+          <h3 class="mb-0">IEEE SRMIST</h3>
+          <div class="subheading mb-3">Sponsorship Lead</div>
+          <p>IEEE SRMIST is a student chapter which aims at aims in advancing technology for Humanity. I lead the
+            sponsorship domain which focuses on the powerful marketing strategy which helps in bringing up meaningful
+            access to our event audience along with creating positive public relations. </p>
+        </div>
+        <div class="flex-shrink-0"><span class="text-primary">2021-07</span></div>
+      </div><br><br>
+
+      <div class="d-flex flex-column flex-md-row justify-content-between">
+        <div class="flex-grow-1">
+          <h3 class="mb-0">Johns Hopkins University</h3>
+          <div class="subheading mb-3">Contributor of COVID-19 data (India)</div>
+          <p>Responsible for collecting, cleaning and submitting COVID-19 data from secondary sources for a few states
+            in India for feeding into the <strong>HIT-COVID tracker. </strong></p>
+        </div>
+        <div class="flex-shrink-0"><span class="text-primary">2021-04</span></div>
+      </div><br><br>
+      <div class="d-flex flex-column flex-md-row justify-content-between">
+        <div class="flex-grow-1">
+          <h3 class="mb-0">Microsoft</h3>
+          <div class="subheading mb-3">Microsoft Learn Student Ambassador</div>
+          <p> - Beta Learn Student Ambassador <br> - Alpha Learn Student Ambassador <br> - New Learn Student
+            Ambassador <br> Selected as a learn student ambassador for the program which aims at being a 'Force for
+            Good- locally and globally'. </p>
+        </div>
+        <div class="flex-shrink-0"><span class="text-primary">2021-01</span></div>
+      </div><br><br>
+
+      <div class="d-flex flex-column flex-md-row justify-content-between">
+        <div class="flex-grow-1">
+          <h3 class="mb-0">Data Science Community, SRM</h3>
+          <div class="subheading mb-3">Machine Learning Developer, UI/UX designer</div>
+          <p>Involved in machine learning projects and designing user interfaces for websites/ applications for the
+            student community. </p>
+        </div>
+        <div class="flex-shrink-0"><span class="text-primary">2020-07</span></div>
+      </div><br><br>
+
+      <div class="d-flex flex-column flex-md-row justify-content-between">
+        <div class="flex-grow-1">
+          <h3 class="mb-0">Microsoft Learn Student Ambassadors SRM</h3>
+          <div class="subheading mb-3">Associate Corporate Lead</div>
+          <p> - Associate Corporate Lead <br> - Corporate Associate <br> - Technical Associate <br> Actively involved
+            in technical projects, workshop organization, PR and sponsorship activities.</p>
+        </div>
+        <div class="flex-shrink-0"><span class="text-primary">2019-07</span></div>
+      </div><br><br>
+      <div class="d-flex flex-column flex-md-row justify-content-between">
+        <div class="flex-grow-1">
+          <h3 class="mb-0">Transifex.org</h3>
+          <div class="subheading mb-3">Hindi Community Supervisor</div>
+          <p> Responsible for leading the hindi community which was involved in translating threads from English to
+            Hindi for applications to make them available to local regions.</p>
+        </div>
+        <div class="flex-shrink-0"><span class="text-primary">2017-04</span></div>
+      </div>
+    </div>
+  </section>
+  <hr class="m-0" />
+  <!-- Skills-->
+  <section class="resume-section" id="skills">
+    <div class="resume-section-content">
+      <h2 class="mb-4">Skills</h2>
+      <figure>
+        <div class="container-hide">
+          <img class="container__image" src="sources/illustration.gif">
+        </div>
+        <div class="subheading mb-3">Programming Languages & Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item"><i class="fab fa-python"></i></li>
+          <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+          <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+          <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+          <br>
+          <li class="list-inline-item"><img class="list-inline-item " src="sources/adobe.svg" alt=""></li>
+          <li class="list-inline-item"><img class="list-inline-item " src="sources/blender.svg" alt=""></li>
+          <li class="list-inline-item"><img class="list-inline-item " src="sources/flask.svg" alt=""></li>
+          <li class="list-inline-item"><img class="list-inline-item " src="sources/django.svg" alt=""></li>
+        </ul>
+        <div class="subheading mb-3">Others</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            Machine Learning
+          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            Data Analytics
+          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            Microsoft Azure
+          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            Heroku
+          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            UI/UX design
+          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            3D rendering
+          </li>
+        </ul>
+    </div>
+  </section>
+
+  <hr class="m-0" />
+  <!-- Projects-->
+  <section class="resume-section" id="projects">
+    <div class="resume-section-content">
+      <h2 class="mb-4">Projects</h2>
+      <section id="team" class="pb-5">
+        <div class="container">
+          <div class="row">
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                <div class="mainflip">
+                  <div class="frontside">
+                    <div class="card">
+                      <div class="card-body text-center">
+                        <p><img class="img-fluid" src="sources/cards/logo1.png" alt="card image"></p>
+                        <h4 class="card-title">StudEaz for Google Classroom</h4>
+                      </div>
+                      <img class="tech-stack" src="sources/cards/tech1.png">
+                    </div>
+                  </div>
+                  <div class="backside">
+                    <div class="card">
+                      <div class="card-body text-center mt-4">
+                        <p class="card-text"><strong>A browser extension to download multiple documents from a Google
+                            Classroom
+                            in a few clicks.</strong></p>
+                        <a href="https://github.com/MLSA-SRM/GCR-Extension#readme" class="btn btn-primary btn-sm"><i
+                            class="fab fa-github "></i></a>
+
+                      </div>
+                    </div>
+                  </div>
                 </div>
-            </section>
+              </div>
+            </div>
+            <!-- ./Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                <div class="mainflip">
+                  <div class="frontside">
+                    <div class="card">
+                      <div class="card-body text-center">
+                        <p><img class="img-fluid" src="sources/cards/logo2.png" alt="card image"></p>
+                        <h4 class="card-title">Driver Drowsiness Detection</h4>
 
-            <section class="box">
-                <h2>
-                    <i class="fa fa-check" aria-hidden="true"></i>
-                    Skills
-                </h2>
-                <ul>
-                    <li>CSS</li>
-                    <li>HTML</li>
-                    <li>JavaScript</li>
-                    <li>Git</li>
-                    <li>Visual Studio Code</li>
-                </ul>
-            </section>
-        </article>
-        <article class="box">
-            <section class="box">
-                <h2>
-                    <i class="fa fa-briefcase" aria-hidden="true"></i>
-                    Experience
-                </h2>
-                <h3>Microsoft Learn Student Ambassador</h3>
-                <ul>
-                    <li>Some skill</li>
-                    <li>Another skill</li>
-                </ul>
-            </section>
-            <section class="box">
-                <h2>
-                    <i class="fa fa-building" aria-hidden="true"></i>
-                    Internships
-                </h2>
 
-                <h3>Company name</h3>
-                <ul>
-                    <li>Accomplishment</li>
-                    <li>Another accomplishment</li>
-                </ul>
-            </section>
-            <section class="box">
-                <h2>
-                    <i class="fa fa-cubes" aria-hidden="true"></i>
-                    Projects
-                </h2>
-                
-                <h3>Great hackathon</h3>
-                <div>This was a great hack!</div>
-                <ul>
-                    <li>Cool technology used</li>
-                    <li>Prize won</li>
-                </ul>
-            </section>
-        </article>
-    
-    </main>
+
+                      </div>
+                      <img class="tech-stack" src="sources/cards/tech2.png">
+                    </div>
+                  </div>
+                  <div class="backside">
+                    <div class="card">
+                      <div class="card-body text-center mt-4">
+                        <p class="card-text"><strong>Web app to detect if the driver is drowsy while driving. It uses
+                            the eye and mouth aspect ratio.</strong></p>
+                        <a href="https://github.com/Vidushi-Gupta/Driver_Drowsiness_Detection#readme"
+                          class="btn btn-primary btn-sm"><i class="fab fa-github "></i></a>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                <div class="mainflip">
+                  <div class="frontside">
+                    <div class="card">
+                      <div class="card-body text-center">
+                        <p><img class="img-fluid" src="sources/cards/logo3.png" alt="card image"></p>
+                        <h4 class="card-title">COVID-19 cases analysis <br> (India)</h4>
+
+
+                      </div>
+                      <img class="tech-stack-3" src="sources/cards/tech3.png">
+                    </div>
+                  </div>
+                  <div class="backside">
+                    <div class="card">
+                      <div class="card-body text-center mt-4">
+                        <p class="card-text"><strong>An exploratory data analysis on the COVID-19 data for India using
+                            chloropleth maps.</strong></p>
+                        <a href="https://github.com/Vidushi-Gupta/COVID_Choropleth_India#readme"
+                          class="btn btn-primary btn-sm"><i class="fab fa-github "></i></a>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ./Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                <div class="mainflip">
+                  <div class="frontside">
+                    <div class="card">
+                      <div class="card-body text-center">
+                        <p><img class="img-fluid" src="sources/cards/logo4.png" alt="card image"></p>
+                        <h4 class="card-title">COVID-19 + Hospitals data analysis</h4>
+
+
+                      </div>
+                      <img class="tech-stack-3" src="sources/cards/tech3.png">
+                    </div>
+                  </div>
+                  <div class="backside">
+                    <div class="card">
+                      <div class="card-body text-center mt-4">
+                        <p class="card-text"><strong>Predicting confirmed COVID-19 cases and comparison of the
+                            Confirmed
+                            cases to number of hospital beds available in India.</strong></p>
+                        <a href="https://github.com/Vidushi-Gupta/COVID_hospital_beds#readme"
+                          class="btn btn-primary btn-sm"><i class="fab fa-github "></i></a>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                <div class="mainflip">
+                  <div class="frontside">
+                    <div class="card">
+                      <div class="card-body text-center">
+                        <p><img class="img-fluid" src="sources/cards/logo5.png" alt="card image"></p>
+                        <h4 class="card-title">Personal Portfolio</h4>
+
+
+                      </div>
+                      <img class="tech-stack" src="sources/cards/tech5.png">
+                    </div>
+                  </div>
+                  <div class="backside">
+                    <div class="card">
+                      <div class="card-body text-center mt-4">
+                        <p class="card-text"><strong>Check out my skills and interests here.</strong></p>
+                        <a href="https://github.com/Vidushi-Gupta/Personal-Portfolio#readme"
+                          class="btn btn-primary btn-sm"><i class="fas fa-link "></i></a>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                <div class="mainflip">
+                  <div class="frontside">
+                    <div class="card">
+                      <div class="card-body text-center">
+                        <p><img class="img-fluid" src="sources/cards/logo6.png" alt="card image"></p>
+                        <h4 class="card-title">Reportably</h4>
+
+
+                      </div>
+                      <img class="tech-stack" src="sources/cards/tech6.png">
+                    </div>
+                  </div>
+                  <div class="backside">
+                    <div class="card">
+                      <div class="card-body text-center mt-4">
+                        <p class="card-text"><strong>Anonymous reporting portal for any malpractice that you
+                            witnessed.
+                            You can also use this portal to donate relief funds without losing money due to
+                            in-betweens.</strong></p>
+                        <a href="https://github.com/Vidushi-Gupta/Reportably-SheHacks#readme"
+                          class="btn btn-primary btn-sm"><i class="fab fa-github "></i></a>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+  </section>
+  <hr class="m-0" />
+
+
+  <!-- Certifications-->
+  <section class="resume-section" id="certifications">
+    <div class="resume-section-content">
+      <h2 class="mb-4">Trainings & Certifications</h2>
+      <div class="work">
+        <div class="container">
+          <img class="container-az" src="sources/AZ900.png">
+        </div>
+        <div class="row">
+          <!-- <div class="col-md-6"> -->
+
+
+          <ul class="fa-ul mb-0">
+            <li>
+              <span class="fa-li"><i class="fas fa-graduation-cap"></i></fas></span>
+              <div class="subheading mb-3">Azure Fundamentals</div>
+              2021-08 Microsoft
+
+            </li>
+            <li>
+              <br>
+              <span class="fa-li"><i class="fas fa-graduation-cap"></i></fas></span>
+              <div class="subheading mb-3">Responsive Website Basics</div>
+              2021-07 University of London
+            </li>
+            <li>
+              <br>
+              <span class="fa-li"><i class="fas fa-graduation-cap"></i></fas></span>
+              <div class="subheading mb-3">Foundations of Data Science</div>
+              2021-02 Microsoft
+            </li>
+            <li>
+              <br>
+              <span class="fa-li"><i class="fas fa-graduation-cap"></i></fas></span>
+              <div class="subheading mb-3">The Data Scientist's Toolbox</div>
+              2020-04 Johns Hopkins University
+            </li>
+            <li>
+              <br>
+              <span class="fa-li"><i class="fas fa-graduation-cap"></i></fas></span>
+              <div class="subheading mb-3">UI/UX design fundamentals</div>
+              2020-04 California Institute of the Arts
+            </li>
+            <li>
+              <br>
+              <span class="fa-li"><i class="fas fa-graduation-cap"></i></fas></span>
+              <div class="subheading mb-3">Machine Learning</div>
+              2020-02 Stanford University
+            </li>
+            <li>
+              <br>
+              <span class="fa-li"><i class="fas fa-graduation-cap"></i></fas></span>
+              <div class="subheading mb-3">Data Science Specialization</div>
+              2019-10 IBM
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <!-- <img class="awards-img " src="sources/AZ900.png">-->
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- Contact-->
+  <section class="resume-section" id="contact">
+    <div class="resume-section-content">
+      <h2 class="mb-4">Contact</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="social-icons">
+            <a target="_blank" class="social-icon" href="https://www.linkedin.com/in/vidushi-gupta07/"><i
+                class="fab fa-linkedin-in"></i></a> Vidushi Gupta
+
+            <br><br>
+            <a target="_blank" class="social-icon" href="https://github.com/Vidushi-Gupta"><i
+                class="fab fa-github"></i></a> @Vidushi-Gupta
+
+            <br><br>
+            <a target="_blank" class="social-icon" href="https://medium.com/@vidushig2020"><i
+                class="fab fa-medium-m"></i></a>@vidushig2020
+
+            <br><br>
+            <a target="_blank" class="social-icon" href="https://twitter.com/Vidushi_Gupta7"><i
+                class="fab fa-twitter"></i></a>@Vidushi_Gupta7
+
+            <br><br>
+            <a target="_blank" class="social-icon" href="https://instagram.com/vidzene_?utm_medium=copy_link"><i
+                class="fab fa-instagram"></i></a> @vidzene_
+
+            <br><br>
+            <a target="_blank" class="social-icon" href="mailto:vidushig2020@gmail.com"><i
+                class="fas fa-envelope"></i></a>vidushig2020@gmail.com
+
+            <br><br>
+
+
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- copyrights -->
+
+  <section class="">
+    <hr>
+    <div class="text-center">
+      <p>Made with ☕ by Vidushi Gupta </p>
+    </div>
+  </section>
+  </div>
+
+  <!-- Bootstrap core JS-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Third party plugin JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
 </body>
+
 </html>
